@@ -1,1 +1,1 @@
-<?php echo shell_exec(whoami); ?>
+<script>alert("Anil's page")</script>
